@@ -1,0 +1,145 @@
+/* الألوان والخطوط الأساسية */
+:root {
+    --primary-green: #006241; /* لون العلم الموريتاني */
+    --accent-gold: #c5a059;
+    --bg-color: #f0f2f5;
+    --card-bg: #ffffff;
+    --text-main: #2d3436;
+    --text-muted: #636e72;
+    --shadow: 0 15px 35px rgba(0,0,0,0.1);
+}
+
+/* الوضع الليلي التلقائي */
+@media (prefers-color-scheme: dark) {
+    :root {
+        --bg-color: #121212;
+        --card-bg: #1e1e1e;
+        --text-main: #e0e0e0;
+        --text-muted: #a0a0a0;
+    }
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Cairo', sans-serif;
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    transition: all 0.3s ease;
+}
+
+.container {
+    width: 100%;
+    max-width: 480px;
+    background: var(--card-bg);
+    border-radius: 30px;
+    box-shadow: var(--shadow);
+    padding: 30px;
+    overflow: hidden;
+}
+
+/* أزرار اللغة */
+.header-actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.lang-btn {
+    background: var(--bg-color);
+    border: 2px solid var(--primary-green);
+    color: var(--primary-green);
+    padding: 6px 18px;
+    border-radius: 12px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 0.9rem;
+    transition: 0.3s;
+}
+
+.lang-btn:hover {
+    background: var(--primary-green);
+    color: white;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+.icon-main { font-size: 2.5rem; margin-bottom: 10px; }
+h1 { font-size: 1.6rem; margin-bottom: 5px; color: var(--primary-green); }
+.subtitle { font-size: 0.9rem; color: var(--text-muted); }
+
+/* القائمة المنسدلة */
+.selection-area { margin-bottom: 25px; }
+select {
+    width: 100%;
+    padding: 15px;
+    border-radius: 15px;
+    border: 2px solid var(--bg-color);
+    background: var(--bg-color);
+    color: var(--text-main);
+    font-family: 'Cairo';
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+/* بطاقة العد التنازلي */
+.main-card {
+    background: linear-gradient(135deg, var(--primary-green), #004d33);
+    color: white;
+    padding: 30px 20px;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.timer {
+    font-size: 3.5rem;
+    font-weight: 700;
+    letter-spacing: 2px;
+    font-family: 'Courier New', Courier, monospace; /* ثبات عرض الأرقام */
+}
+
+/* الشبكة */
+.prayer-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+}
+
+.prayer-item {
+    background: var(--bg-color);
+    padding: 18px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: transform 0.2s;
+}
+
+.p-name { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 5px; }
+.p-time { font-size: 1.3rem; font-weight: 700; color: var(--primary-green); }
+
+.accent-fajr { border: 1px solid var(--accent-gold); }
+.accent-maghrib { border: 1px solid #e17055; background: #fff5f2; }
+
+/* الوضع الليلي للبطاقة البرتقالية */
+@media (prefers-color-scheme: dark) {
+    .accent-maghrib { background: #3d1c13; }
+}
+
+footer {
+    text-align: center;
+    margin-top: 35px;
+    font-size: 0.8rem;
+    color: var(--text-muted);
+}
