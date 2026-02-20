@@ -11,9 +11,16 @@
 
     <div class="container">
         <div class="header-actions">
-            <button class="lang-btn" onclick="switchLanguage('ar')">عربي</button>
-            <button class="lang-btn" onclick="switchLanguage('fr')">Français</button>
-        </div>
+    <button class="action-btn lang-switch-btn" onclick="toggleLanguage()" id="langBtn">
+        <span class="lang-text">Français</span>
+        <span class="lang-icon">🌐</span>
+    </button>
+
+    <button class="action-btn share-btn" onclick="shareApp()">
+        <span data-i18n="share_text">مشاركة</span>
+        <span>📤</span>
+    </button>
+</div>
 
         <header>
             <div class="icon-main">🌙</div>
@@ -32,32 +39,33 @@
             <div id="countdown" class="timer">00:00:00</div>
         </div>
 
-        <div class="prayer-grid">
-            <div class="prayer-item">
-                <span class="p-name" data-i18n="p_imsak">الإمساك</span>
-                <span class="p-time" id="imsak">--:--</span>
-            </div>
-            <div class="prayer-item accent-fajr">
-                <span class="p-name" data-i18n="p_fajr">الفجر</span>
-                <span class="p-time" id="fajr">--:--</span>
-            </div>
-            <div class="prayer-item">
+		
+		<div class="prayer-grid">
+    <div class="prayer-item accent-imsak">
+        <span class="p-name" data-i18n="p_imsak">الإمساك</span>
+        <span class="p-time" id="imsak">--:--</span>
+    </div>
+    <div class="prayer-item">
+        <span class="p-name" data-i18n="p_fajr">الفجر</span>
+        <span class="p-time" id="fajr">--:--</span>
+    </div>
+	<div class="prayer-item">
                 <span class="p-name" data-i18n="p_dhuhr">الظهر</span>
                 <span class="p-time" id="dhuhr">--:--</span>
             </div>
-            <div class="prayer-item">
+			<div class="prayer-item">
                 <span class="p-name" data-i18n="p_asr">العصر</span>
                 <span class="p-time" id="asr">--:--</span>
             </div>
-            <div class="prayer-item accent-maghrib">
-                <span class="p-name" data-i18n="p_iftar">الإفطار</span>
-                <span class="p-time" id="iftar">--:--</span>
-            </div>
-            <div class="prayer-item">
+    <div class="prayer-item accent-maghrib">
+        <span class="p-name" data-i18n="p_iftar">الإفطار</span>
+        <span class="p-time" id="iftar">--:--</span>
+    </div>
+	<div class="prayer-item">
                 <span class="p-name" data-i18n="p_isha">العشاء</span>
                 <span class="p-time" id="isha">--:--</span>
             </div>
-        </div>
+    </div>
 
         <footer>
             <p data-i18n="footer_text">وزارة الشؤون الإسلامية والتعليم الأصلي</p>

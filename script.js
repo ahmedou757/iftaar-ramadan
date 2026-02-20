@@ -20,7 +20,9 @@ const translations = {
             aioun: "العيون",
             kiffa: "كيفه",
             kaedi: "كيهيدي",
-            aleg: "ألاك"
+            aleg: "ألاك",
+			atar: "أطار",
+			nouadhibou: "انواذيبو"
         }
     },
     fr: {
@@ -43,7 +45,9 @@ const translations = {
             aioun: "Aïoun",
             kiffa: "Kiffa",
             kaedi: "Kaédi",
-            aleg: "Aleg"
+            aleg: "Aleg",
+			atar: "Atar",
+			nouadhibou: "انواذيبو"
         }
     }
 };
@@ -243,7 +247,71 @@ const ramadanData = {
         {"day": 28, "imsak": "05:39", "fajr": "05:44", "dhuhr": "13:04", "asr": "16:26", "iftar": "19:09", "isha": "20:16"},
         {"day": 29, "imsak": "05:38", "fajr": "05:43", "dhuhr": "13:04", "asr": "16:26", "iftar": "19:10", "isha": "20:16"},
         {"day": 30, "imsak": "05:37", "fajr": "05:42", "dhuhr": "13:03", "asr": "16:25", "iftar": "19:10", "isha": "20:16"}
-    ]
+    ],
+	"أطار": [
+    {"day": 1, "imsak": "05:58", "fajr": "06:03", "dhuhr": "13:06", "asr": "16:25", "iftar": "18:53", "isha": "20:23"},
+    {"day": 2, "imsak": "05:58", "fajr": "06:03", "dhuhr": "13:06", "asr": "16:25", "iftar": "18:53", "isha": "20:23"},
+    {"day": 3, "imsak": "05:57", "fajr": "06:02", "dhuhr": "13:06", "asr": "16:25", "iftar": "18:54", "isha": "20:24"},
+    {"day": 4, "imsak": "05:56", "fajr": "06:01", "dhuhr": "13:06", "asr": "16:25", "iftar": "18:54", "isha": "20:24"},
+    {"day": 5, "imsak": "05:56", "fajr": "06:01", "dhuhr": "13:06", "asr": "16:26", "iftar": "18:55", "isha": "20:25"},
+    {"day": 6, "imsak": "05:55", "fajr": "06:00", "dhuhr": "13:05", "asr": "16:26", "iftar": "18:55", "isha": "20:25"},
+    {"day": 7, "imsak": "05:54", "fajr": "05:59", "dhuhr": "13:05", "asr": "16:26", "iftar": "18:55", "isha": "20:25"},
+    {"day": 8, "imsak": "05:54", "fajr": "05:59", "dhuhr": "13:05", "asr": "16:26", "iftar": "18:56", "isha": "20:26"},
+    {"day": 9, "imsak": "05:53", "fajr": "05:58", "dhuhr": "13:05", "asr": "16:26", "iftar": "18:56", "isha": "20:26"},
+    {"day": 10, "imsak": "05:52", "fajr": "05:57", "dhuhr": "13:05", "asr": "16:26", "iftar": "18:57", "isha": "20:27"},
+    {"day": 11, "imsak": "05:51", "fajr": "05:56", "dhuhr": "13:05", "asr": "16:26", "iftar": "18:57", "isha": "20:27"},
+    {"day": 12, "imsak": "05:50", "fajr": "05:55", "dhuhr": "13:04", "asr": "16:26", "iftar": "18:58", "isha": "20:28"},
+    {"day": 13, "imsak": "05:49", "fajr": "05:54", "dhuhr": "13:04", "asr": "16:26", "iftar": "18:58", "isha": "20:28"},
+    {"day": 14, "imsak": "05:49", "fajr": "05:54", "dhuhr": "13:04", "asr": "16:26", "iftar": "18:58", "isha": "20:28"},
+    {"day": 15, "imsak": "05:48", "fajr": "05:53", "dhuhr": "13:03", "asr": "16:26", "iftar": "18:59", "isha": "20:29"},
+    {"day": 16, "imsak": "05:47", "fajr": "05:52", "dhuhr": "13:03", "asr": "16:26", "iftar": "18:59", "isha": "20:29"},
+    {"day": 17, "imsak": "05:46", "fajr": "05:51", "dhuhr": "13:03", "asr": "16:26", "iftar": "19:00", "isha": "20:30"},
+    {"day": 18, "imsak": "05:45", "fajr": "05:50", "dhuhr": "13:03", "asr": "16:26", "iftar": "19:00", "isha": "20:30"},
+    {"day": 19, "imsak": "05:44", "fajr": "05:49", "dhuhr": "13:03", "asr": "16:26", "iftar": "19:00", "isha": "20:30"},
+    {"day": 20, "imsak": "05:43", "fajr": "05:48", "dhuhr": "13:02", "asr": "16:26", "iftar": "19:01", "isha": "20:31"},
+    {"day": 21, "imsak": "05:42", "fajr": "05:47", "dhuhr": "13:02", "asr": "16:26", "iftar": "19:01", "isha": "20:31"},
+    {"day": 22, "imsak": "05:41", "fajr": "05:46", "dhuhr": "13:02", "asr": "16:26", "iftar": "19:02", "isha": "20:32"},
+    {"day": 23, "imsak": "05:40", "fajr": "05:45", "dhuhr": "13:02", "asr": "16:26", "iftar": "19:02", "isha": "20:32"},
+    {"day": 24, "imsak": "05:39", "fajr": "05:44", "dhuhr": "13:01", "asr": "16:26", "iftar": "19:02", "isha": "20:32"},
+    {"day": 25, "imsak": "05:38", "fajr": "05:43", "dhuhr": "13:01", "asr": "16:26", "iftar": "19:03", "isha": "20:33"},
+    {"day": 26, "imsak": "05:37", "fajr": "05:42", "dhuhr": "13:01", "asr": "16:26", "iftar": "19:03", "isha": "20:33"},
+    {"day": 27, "imsak": "05:36", "fajr": "05:41", "dhuhr": "13:01", "asr": "16:26", "iftar": "19:04", "isha": "20:34"},
+    {"day": 28, "imsak": "05:35", "fajr": "05:40", "dhuhr": "13:01", "asr": "16:26", "iftar": "19:04", "isha": "20:34"},
+    {"day": 29, "imsak": "05:34", "fajr": "05:39", "dhuhr": "13:00", "asr": "16:26", "iftar": "19:04", "isha": "20:34"},
+    {"day": 30, "imsak": "05:33", "fajr": "05:38", "dhuhr": "13:00", "asr": "16:26", "iftar": "19:05", "isha": "20:35"}
+],
+"انواذيبو": [
+    {"day": 1, "imsak": "06:18", "fajr": "06:23", "dhuhr": "13:28", "asr": "16:47", "iftar": "19:18", "isha": "20:28"},
+    {"day": 2, "imsak": "06:17", "fajr": "06:22", "dhuhr": "13:28", "asr": "16:47", "iftar": "19:19", "isha": "20:29"},
+    {"day": 3, "imsak": "06:17", "fajr": "06:22", "dhuhr": "13:28", "asr": "16:47", "iftar": "19:19", "isha": "20:29"},
+    {"day": 4, "imsak": "06:16", "fajr": "06:21", "dhuhr": "13:28", "asr": "16:47", "iftar": "19:20", "isha": "20:30"},
+    {"day": 5, "imsak": "06:15", "fajr": "06:20", "dhuhr": "13:27", "asr": "16:48", "iftar": "19:20", "isha": "20:30"},
+    {"day": 6, "imsak": "06:14", "fajr": "06:19", "dhuhr": "13:27", "asr": "16:48", "iftar": "19:21", "isha": "20:31"},
+    {"day": 7, "imsak": "06:13", "fajr": "06:18", "dhuhr": "13:27", "asr": "16:48", "iftar": "19:21", "isha": "20:31"},
+    {"day": 8, "imsak": "06:12", "fajr": "06:17", "dhuhr": "13:27", "asr": "16:48", "iftar": "19:22", "isha": "20:32"},
+    {"day": 9, "imsak": "06:11", "fajr": "06:16", "dhuhr": "13:27", "asr": "16:48", "iftar": "19:22", "isha": "20:32"},
+    {"day": 10, "imsak": "06:10", "fajr": "06:15", "dhuhr": "13:26", "asr": "16:48", "iftar": "19:23", "isha": "20:33"},
+    {"day": 11, "imsak": "06:09", "fajr": "06:14", "dhuhr": "13:26", "asr": "16:48", "iftar": "19:23", "isha": "20:33"},
+    {"day": 12, "imsak": "06:08", "fajr": "06:13", "dhuhr": "13:26", "asr": "16:48", "iftar": "19:24", "isha": "20:34"},
+    {"day": 13, "imsak": "06:07", "fajr": "06:12", "dhuhr": "13:26", "asr": "16:48", "iftar": "19:24", "isha": "20:34"},
+    {"day": 14, "imsak": "06:06", "fajr": "06:11", "dhuhr": "13:25", "asr": "16:48", "iftar": "19:25", "isha": "20:35"},
+    {"day": 15, "imsak": "06:05", "fajr": "06:10", "dhuhr": "13:25", "asr": "16:48", "iftar": "19:25", "isha": "20:35"},
+    {"day": 16, "imsak": "06:04", "fajr": "06:09", "dhuhr": "13:25", "asr": "16:47", "iftar": "19:26", "isha": "20:36"},
+    {"day": 17, "imsak": "06:03", "fajr": "06:08", "dhuhr": "13:25", "asr": "16:47", "iftar": "19:26", "isha": "20:36"},
+    {"day": 18, "imsak": "06:02", "fajr": "06:07", "dhuhr": "13:24", "asr": "16:47", "iftar": "19:26", "isha": "20:36"},
+    {"day": 19, "imsak": "06:01", "fajr": "06:06", "dhuhr": "13:24", "asr": "16:47", "iftar": "19:27", "isha": "20:37"},
+    {"day": 20, "imsak": "06:00", "fajr": "06:05", "dhuhr": "13:24", "asr": "16:47", "iftar": "19:27", "isha": "20:37"},
+    {"day": 21, "imsak": "05:59", "fajr": "06:04", "dhuhr": "13:24", "asr": "16:47", "iftar": "19:28", "isha": "20:38"},
+    {"day": 22, "imsak": "05:58", "fajr": "06:03", "dhuhr": "13:23", "asr": "16:47", "iftar": "19:28", "isha": "20:38"},
+    {"day": 23, "imsak": "05:56", "fajr": "06:01", "dhuhr": "13:23", "asr": "16:47", "iftar": "19:29", "isha": "20:39"},
+    {"day": 24, "imsak": "05:55", "fajr": "06:00", "dhuhr": "13:23", "asr": "16:46", "iftar": "19:29", "isha": "20:39"},
+    {"day": 25, "imsak": "05:54", "fajr": "05:59", "dhuhr": "13:23", "asr": "16:46", "iftar": "19:30", "isha": "20:40"},
+    {"day": 26, "imsak": "05:53", "fajr": "05:58", "dhuhr": "13:22", "asr": "16:46", "iftar": "19:30", "isha": "20:40"},
+    {"day": 27, "imsak": "05:52", "fajr": "05:57", "dhuhr": "13:22", "asr": "16:46", "iftar": "19:31", "isha": "20:41"},
+    {"day": 28, "imsak": "05:51", "fajr": "05:56", "dhuhr": "13:22", "asr": "16:46", "iftar": "19:31", "isha": "20:41"},
+    {"day": 29, "imsak": "05:50", "fajr": "05:55", "dhuhr": "13:22", "asr": "16:45", "iftar": "19:32", "isha": "20:42"},
+    {"day": 30, "imsak": "05:49", "fajr": "05:54", "dhuhr": "13:22", "asr": "16:45", "iftar": "19:32", "isha": "20:42"}
+]
 };
 
 // خريطة لتحويل المفتاح الإنجليزي إلى الاسم العربي المستخدم في البيانات
@@ -253,7 +321,9 @@ const cityKeyToArabic = {
     aioun: "العيون",
     kiffa: "كيفه",
     kaedi: "كيهيدي",
-    aleg: "ألاك"
+    aleg: "ألاك",
+	atar: "أطار",
+	nouadhibou: "انواذيبو"
 };
 
 // ==========================================
@@ -275,31 +345,24 @@ function translatePage() {
     });
 }
 
-// دالة لتحديد يوم رمضان الحالي بناءً على التاريخ الميلادي
-function getRamadanDay() {
-    const startRamadan = new Date('2026-02-19T00:00:00'); // 1 رمضان 1447
-    const today = new Date();
-    // ضبط الوقت إلى منتصف الليل لمقارنة الأيام فقط
-    const start = new Date(startRamadan.getFullYear(), startRamadan.getMonth(), startRamadan.getDate());
-    const current = new Date(today.getFullYear(), today.getMonth(), today.getDate());
-    const diffTime = current - start;
-    const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24)) + 1;
-    
-    if (diffDays < 1) return 1;        // قبل رمضان
-    if (diffDays > 30) return 30;      // بعد رمضان
-    return diffDays;
+// دالة تبديل اللغة (تستدعى من الزر)
+function toggleLanguage() {
+    const newLang = currentLang === 'ar' ? 'fr' : 'ar';
+    switchLanguage(newLang);
 }
 
+// دالة تغيير اللغة وتحديث الواجهة
 function switchLanguage(lang) {
     currentLang = lang;
     document.getElementById('htmlTag').dir = lang === 'ar' ? 'rtl' : 'ltr';
+    document.getElementById('langBtn').querySelector('.lang-text').textContent = 
+        lang === 'ar' ? 'Français' : 'العربية';
     
-    // تحديث أسماء المدن في القائمة (فقط المدن المتوفرة)
+    // تحديث أسماء المدن في القائمة (فقط المدن المتوفرة في البيانات)
     const citySelect = document.getElementById('citySelect');
     const currentCity = citySelect.value || 'nouakchott';
     citySelect.innerHTML = '';
     
-    // نستخدم فقط المدن الموجودة في cityKeyToArabic (أي المتوفرة في البيانات)
     Object.keys(translations[lang].cities)
         .filter(id => cityKeyToArabic[id]) // تأكد من وجود بيانات لهذه المدينة
         .forEach(id => {
@@ -309,37 +372,73 @@ function switchLanguage(lang) {
             citySelect.appendChild(opt);
         });
     
-    // استعادة المدينة المختارة سابقاً إن وجدت، وإلا اختر أول مدينة
+    // استعادة المدينة المختارة سابقاً إن وجدت
     if (citySelect.querySelector(`option[value="${currentCity}"]`)) {
         citySelect.value = currentCity;
     } else {
         citySelect.value = citySelect.options[0]?.value || 'nouakchott';
     }
 
-    // ترجمة بقية النصوص
     translatePage();
-    // تحديث العداد والأوقات
     updateUI();
 }
 
-function updateUI() {
-    const cityKey = document.getElementById('citySelect').value; // المفتاح الإنجليزي
-    const cityArabic = cityKeyToArabic[cityKey];
+// ==========================
+// دوال المشاركة
+// ==========================
+
+function shareApp() {
+    const shareData = {
+        title: translations[currentLang].app_title,
+        text: translations[currentLang].main_heading,
+        url: window.location.href
+    };
+
+    if (navigator.share) {
+        navigator.share(shareData)
+            .catch(err => console.log('لم تتم المشاركة:', err));
+    } else {
+        // نسخ الرابط للحافظة كبديل
+        navigator.clipboard?.writeText(window.location.href)
+            .then(() => alert('تم نسخ رابط التطبيق. يمكنك مشاركته الآن.'))
+            .catch(() => alert('يمكنك مشاركة الرابط: ' + window.location.href));
+    }
+}
+
+// ==========================
+// دوال حساب اليوم والتوقيت
+// ==========================
+
+function getRamadanDay() {
+    const startRamadan = new Date('2026-02-19T00:00:00');
+    const today = new Date();
+    const start = new Date(startRamadan.getFullYear(), startRamadan.getMonth(), startRamadan.getDate());
+    const current = new Date(today.getFullYear(), today.getMonth(), today.getDate());
+    const diffTime = current - start;
+    const diffDays = Math.floor(diffTime / (1000 * 60 * 60 * 24)) + 1;
     
-    // لا حاجة للتحقق من عدم التوفر لأن القائمة تحتوي فقط على المدن المتوفرة
-    displayCityData(cityArabic);
+    if (diffDays < 1) return 1;
+    if (diffDays > 30) return 30;
+    return diffDays;
+}
+
+function updateUI() {
+    const cityKey = document.getElementById('citySelect').value;
+    const cityArabic = cityKeyToArabic[cityKey];
+    if (cityArabic) {
+        displayCityData(cityArabic);
+    }
 }
 
 function displayCityData(cityArabic) {
     const ramadanDay = getRamadanDay();
-    const dayData = ramadanData[cityArabic][ramadanDay - 1]; // -1 لأن المصفوفة تبدأ من 0
+    const dayData = ramadanData[cityArabic]?.[ramadanDay - 1];
 
     if (!dayData) {
         console.error('لا توجد بيانات لليوم', ramadanDay);
         return;
     }
 
-    // تحديث النصوص في الواجهة
     document.getElementById('imsak').textContent = dayData.imsak;
     document.getElementById('fajr').textContent = dayData.fajr;
     document.getElementById('dhuhr').textContent = dayData.dhuhr;
@@ -353,11 +452,10 @@ function displayCityData(cityArabic) {
 function runCountdown(dayData, cityArabic, currentDay) {
     const now = new Date();
     
-    // دالة مساعدة لتحويل وقت (hh:mm) إلى كائن Date مع إمكانية إضافة يوم
     const getTimeDate = (timeStr, addDay = false) => {
         const [h, m] = timeStr.split(':').map(Number);
         const d = new Date(now);
-        d.setHours(h, m, 0, 0); // ضبط الثواني والملي ثانية إلى 0
+        d.setHours(h, m, 0, 0);
         if (addDay) {
             d.setDate(d.getDate() + 1);
         }
@@ -370,23 +468,19 @@ function runCountdown(dayData, cityArabic, currentDay) {
     let target, titleKey;
 
     if (now > iftarTime) {
-        // بعد الإفطار → ننتقل إلى إمساك الغد
         let nextDay = currentDay + 1;
         let nextDayData;
         if (nextDay > 30) {
-            // إذا كان اليوم آخر يوم، نستخدم نفس بيانات الإمساك لليوم التالي (أو نعرض صفر)
-            nextDayData = dayData; // أو نعرض صفر
+            nextDayData = dayData;
         } else {
             nextDayData = ramadanData[cityArabic][nextDay - 1];
         }
-        target = getTimeDate(nextDayData.imsak, true); // إضافة يوم
+        target = getTimeDate(nextDayData.imsak, true);
         titleKey = 'timer_imsak_next';
     } else if (now > imsakTime) {
-        // بين الإمساك والإفطار → المتبقي للإفطار
         target = iftarTime;
         titleKey = 'timer_iftar';
     } else {
-        // قبل الإمساك → المتبقي للإمساك
         target = imsakTime;
         titleKey = 'timer_imsak';
     }
@@ -409,7 +503,6 @@ function runCountdown(dayData, cityArabic, currentDay) {
 // التشغيل الأولي
 document.addEventListener('DOMContentLoaded', () => {
     switchLanguage('ar');
-    // تحديث كل ثانية
     if (countdownInterval) clearInterval(countdownInterval);
     countdownInterval = setInterval(updateUI, 1000);
     document.getElementById('citySelect').addEventListener('change', updateUI);
