@@ -1,0 +1,22 @@
+{
+  "name": "إمساكية رمضان 1447",
+  "short_name": "إمساكية",
+  "description": "إمساكية رمضان لموريتانيا 1447هـ",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#006241",
+  "theme_color": "#006241",
+  "orientation": "portrait",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
