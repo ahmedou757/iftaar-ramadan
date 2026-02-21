@@ -22,7 +22,8 @@ const translations = {
             kaedi: "كيهيدي",
             aleg: "ألاك",
 			atar: "أطار",
-			nouadhibou: "انواذيبو"
+			nouadhibou: "انواذيبو",
+            Akjoujet: "أكجوجت"
         }
     },
     fr: {
@@ -47,7 +48,8 @@ const translations = {
             kaedi: "Kaédi",
             aleg: "Aleg",
 			atar: "Atar",
-			nouadhibou: "انواذيبو"
+			nouadhibou: "انواذيبو",
+            Akjoujet: "Akjoujet"
         }
     }
 };
@@ -311,7 +313,39 @@ const ramadanData = {
     {"day": 28, "imsak": "05:51", "fajr": "05:56", "dhuhr": "13:22", "asr": "16:46", "iftar": "19:31", "isha": "20:41"},
     {"day": 29, "imsak": "05:50", "fajr": "05:55", "dhuhr": "13:22", "asr": "16:45", "iftar": "19:32", "isha": "20:42"},
     {"day": 30, "imsak": "05:49", "fajr": "05:54", "dhuhr": "13:22", "asr": "16:45", "iftar": "19:32", "isha": "20:42"}
-]
+],
+"أكجوجت": [
+        { day: 1,  imsak: "05:59", fajr: "06:04", dhuhr: "13:11", asr: "16:31", maghrib: "19:02", isha: "20:10" },
+        { day: 2,  imsak: "05:59", fajr: "06:04", dhuhr: "13:11", asr: "16:31", maghrib: "19:02", isha: "20:11" },
+        { day: 3,  imsak: "05:58", fajr: "06:03", dhuhr: "13:11", asr: "16:31", maghrib: "19:02", isha: "20:11" },
+        { day: 4,  imsak: "05:57", fajr: "06:02", dhuhr: "13:11", asr: "16:31", maghrib: "19:03", isha: "20:11" },
+        { day: 5,  imsak: "05:57", fajr: "06:02", dhuhr: "13:11", asr: "16:31", maghrib: "19:03", isha: "20:12" },
+        { day: 6,  imsak: "05:56", fajr: "06:01", dhuhr: "13:11", asr: "16:31", maghrib: "19:04", isha: "20:12" },
+        { day: 7,  imsak: "05:56", fajr: "06:01", dhuhr: "13:11", asr: "16:31", maghrib: "19:04", isha: "20:12" },
+        { day: 8,  imsak: "05:55", fajr: "06:00", dhuhr: "13:10", asr: "16:32", maghrib: "19:04", isha: "20:13" },
+        { day: 9,  imsak: "05:54", fajr: "05:59", dhuhr: "13:10", asr: "16:32", maghrib: "19:05", isha: "20:13" },
+        { day: 10, imsak: "05:54", fajr: "05:59", dhuhr: "13:10", asr: "16:32", maghrib: "19:05", isha: "20:13" },
+        { day: 11, imsak: "05:53", fajr: "05:58", dhuhr: "13:10", asr: "16:32", maghrib: "19:06", isha: "20:14" },
+        { day: 12, imsak: "05:52", fajr: "05:57", dhuhr: "13:10", asr: "16:32", maghrib: "19:06", isha: "20:14" },
+        { day: 13, imsak: "05:51", fajr: "05:56", dhuhr: "13:10", asr: "16:32", maghrib: "19:06", isha: "20:14" },
+        { day: 14, imsak: "05:51", fajr: "05:56", dhuhr: "13:09", asr: "16:32", maghrib: "19:07", isha: "20:15" },
+        { day: 15, imsak: "05:50", fajr: "05:55", dhuhr: "13:09", asr: "16:32", maghrib: "19:07", isha: "20:15" },
+        { day: 16, imsak: "05:49", fajr: "05:54", dhuhr: "13:09", asr: "16:31", maghrib: "19:07", isha: "20:15" },
+        { day: 17, imsak: "05:48", fajr: "05:53", dhuhr: "13:09", asr: "16:31", maghrib: "19:08", isha: "20:16" },
+        { day: 18, imsak: "05:48", fajr: "05:53", dhuhr: "13:08", asr: "16:31", maghrib: "19:08", isha: "20:16" },
+        { day: 19, imsak: "05:47", fajr: "05:52", dhuhr: "13:08", asr: "16:31", maghrib: "19:08", isha: "20:16" },
+        { day: 20, imsak: "05:46", fajr: "05:51", dhuhr: "13:08", asr: "16:31", maghrib: "19:09", isha: "20:17" },
+        { day: 21, imsak: "05:45", fajr: "05:50", dhuhr: "13:08", asr: "16:31", maghrib: "19:09", isha: "20:17" },
+        { day: 22, imsak: "05:44", fajr: "05:49", dhuhr: "13:07", asr: "16:31", maghrib: "19:09", isha: "20:17" },
+        { day: 23, imsak: "05:44", fajr: "05:49", dhuhr: "13:07", asr: "16:31", maghrib: "19:09", isha: "20:17" },
+        { day: 24, imsak: "05:43", fajr: "05:48", dhuhr: "13:07", asr: "16:30", maghrib: "19:10", isha: "20:18" },
+        { day: 25, imsak: "05:42", fajr: "05:47", dhuhr: "13:07", asr: "16:30", maghrib: "19:10", isha: "20:18" },
+        { day: 26, imsak: "05:41", fajr: "05:46", dhuhr: "13:06", asr: "16:30", maghrib: "19:10", isha: "20:18" },
+        { day: 27, imsak: "05:40", fajr: "05:45", dhuhr: "13:06", asr: "16:30", maghrib: "19:11", isha: "20:19" },
+        { day: 28, imsak: "05:39", fajr: "05:44", dhuhr: "13:06", asr: "16:30", maghrib: "19:11", isha: "20:19" },
+        { day: 29, imsak: "05:38", fajr: "05:43", dhuhr: "13:05", asr: "16:29", maghrib: "19:11", isha: "20:19" },
+        { day: 30, imsak: "05:37", fajr: "05:42", dhuhr: "13:05", asr: "16:29", maghrib: "19:11", isha: "20:20" }
+    ]
 };
 
 // خريطة لتحويل المفتاح الإنجليزي إلى الاسم العربي المستخدم في البيانات
@@ -323,7 +357,8 @@ const cityKeyToArabic = {
     kaedi: "كيهيدي",
     aleg: "ألاك",
 	atar: "أطار",
-	nouadhibou: "انواذيبو"
+	nouadhibou: "انواذيبو",
+    Akjoujet: "أكجوجت"
 };
 
 // ==========================================
@@ -438,7 +473,7 @@ function displayCityData(cityArabic) {
         console.error('لا توجد بيانات لليوم', ramadanDay);
         return;
     }
-
+    updateHijriDisplay(ramadanDay);
     document.getElementById('imsak').textContent = dayData.imsak;
     document.getElementById('fajr').textContent = dayData.fajr;
     document.getElementById('dhuhr').textContent = dayData.dhuhr;
@@ -507,3 +542,12 @@ document.addEventListener('DOMContentLoaded', () => {
     countdownInterval = setInterval(updateUI, 1000);
     document.getElementById('citySelect').addEventListener('change', updateUI);
 });
+// دالة تحديث التاريخ الهجري
+function updateHijriDisplay(dayNumber) {
+    const monthName = currentLang === 'ar' ? "رمضان" : "Ramadan";
+    const year = "1447";
+    const displayElement = document.getElementById('hijriDisplay');
+    if (displayElement) {
+        displayElement.textContent = `${dayNumber} ${monthName} ${year}`;
+    }
+}

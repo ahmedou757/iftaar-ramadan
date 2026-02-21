@@ -170,3 +170,13 @@ footer {
     font-size: 0.8rem;
     color: var(--text-muted);
 }
+.hijri-date {
+    margin-top: 10px;
+    font-size: 1.1rem;
+    color: var(--accent-gold); /* لون ذهبي رمضاني */
+    font-weight: 700;
+    background: rgba(0, 98, 65, 0.1); /* خلفية خضراء خفيفة */
+    display: inline-block;
+    padding: 5px 15px;
+    border-radius: 50px;
+}
