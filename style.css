@@ -1,182 +1,94 @@
-/* الألوان والخطوط الأساسية */
 :root {
-    --primary-green: #006241; /* لون العلم الموريتاني */
-    --accent-gold: #c5a059;
-    --bg-color: #f0f2f5;
-    --card-bg: #ffffff;
-    --text-main: #2d3436;
-    --text-muted: #636e72;
-    --shadow: 0 15px 35px rgba(0,0,0,0.1);
-}
+        --bg-pink: #fce4ec;
+            --bg-blue: #e3f2fd;
+                --primary-color: #f77062;
+                    --accent-gold: #c5a059;
+                        --card-bg: #fff;
+                        }
 
-/* الوضع الليلي التلقائي */
-@media (prefers-color-scheme: dark) {
-    :root {
-        --bg-color: #121212;
-        --card-bg: #1e1e1e;
-        --text-main: #e0e0e0;
-        --text-muted: #a0a0a0;
-    }
-}
+                        body {
+                            font-family: 'Tajawal', sans-serif;
+                                background: linear-gradient(135deg, var(--bg-pink), var(--bg-blue));
+                                    margin: 0;
+                                        min-height: 100vh;
+                                            display: flex;
+                                                justify-content: center;
+                                                    align-items: center;
+                                                        overflow: hidden; /* لمنع التمرير أثناء الاحتفال */
+                                                        }
 
-* {
-    box-sizing: border-box;
-    margin: 0;
-    padding: 0;
-}
+                                                        .nav-container {
+                                                            position: absolute;
+                                                                top: 20px;
+                                                                    left: 50%;
+                                                                        transform: translateX(-50%);
+                                                                            display: flex;
+                                                                                gap: 15px;
+                                                                                    width: 90%;
+                                                                                        max-width: 400px;
+                                                                                            z-index: 1000;
+                                                                                            }
 
-body {
-    font-family: 'Cairo', sans-serif;
-    background-color: var(--bg-color);
-    color: var(--text-main);
-    display: flex;
-    justify-content: center;
-    padding: 20px;
-    transition: all 0.3s ease;
-}
+                                                                                            .nav-btn {
+                                                                                                background: rgba(255, 255, 255, 0.8);
+                                                                                                    border: 1px solid #ddd;
+                                                                                                        padding: 10px 15px;
+                                                                                                            border-radius: 15px;
+                                                                                                                cursor: pointer;
+                                                                                                                    flex: 1;
+                                                                                                                        display: flex;
+                                                                                                                            justify-content: center;
+                                                                                                                                gap: 8px;
+                                                                                                                                    color: var(--primary-color);
+                                                                                                                                        font-weight: bold;
+                                                                                                                                        }
 
-.container {
-    width: 100%;
-    max-width: 480px;
-    background: var(--card-bg);
-    border-radius: 30px;
-    box-shadow: var(--shadow);
-    padding: 30px;
-    overflow: hidden;
-}
+                                                                                                                                        .card-container {
+                                                                                                                                            background: white;
+                                                                                                                                                padding: 40px 20px;
+                                                                                                                                                    border-radius: 30px;
+                                                                                                                                                        text-align: center;
+                                                                                                                                                            width: 320px;
+                                                                                                                                                                box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+                                                                                                                                                                    z-index: 10;
+                                                                                                                                                                    }
 
-/* أزرار الإجراءات (اللغة والمشاركة) */
-.header-actions {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 25px;
-}
+                                                                                                                                                                    .highlight-box {
+                                                                                                                                                                        background: var(--primary-color);
+                                                                                                                                                                            color: white;
+                                                                                                                                                                                padding: 20px;
+                                                                                                                                                                                    border-radius: 20px;
+                                                                                                                                                                                        margin-top: 20px;
+                                                                                                                                                                                            font-size: 1.2rem;
+                                                                                                                                                                                            }
 
-.action-btn {
-    background: var(--bg-color);
-    border: 2px solid var(--primary-green);
-    color: var(--primary-green);
-    padding: 6px 18px;
-    border-radius: 12px;
-    cursor: pointer;
-    font-weight: 700;
-    font-size: 0.9rem;
-    transition: 0.3s;
-    display: inline-flex;
-    align-items: center;
-    gap: 5px;
-}
+                                                                                                                                                                                            /* --- أنميشن الاحتفالات --- */
+                                                                                                                                                                                            .confetti-piece {
+                                                                                                                                                                                                position: absolute;
+                                                                                                                                                                                                    width: 10px;
+                                                                                                                                                                                                        height: 10px;
+                                                                                                                                                                                                            top: -20px;
+                                                                                                                                                                                                                z-index: 1;
+                                                                                                                                                                                                                    animation: fall linear forwards;
+                                                                                                                                                                                                                    }
 
-.action-btn:hover {
-    background: var(--primary-green);
-    color: white;
-}
+                                                                                                                                                                                                                    @keyframes fall {
+                                                                                                                                                                                                                        to {
+                                                                                                                                                                                                                                transform: translateY(100vh) rotate(360deg);
+                                                                                                                                                                                                                                    }
+                                                                                                                                                                                                                                    }
 
-/* يمكن إضافة تنسيق خاص لزر المشاركة إذا لزم الأمر */
-.share-btn {
-    /* أي تخصيصات إضافية */
-}
+                                                                                                                                                                                                                                    .firework-spark {
+                                                                                                                                                                                                                                        position: absolute;
+                                                                                                                                                                                                                                            width: 5px;
+                                                                                                                                                                                                                                                height: 5px;
+                                                                                                                                                                                                                                                    border-radius: 50%;
+                                                                                                                                                                                                                                                        z-index: 1;
+                                                                                                                                                                                                                                                            animation: explode 1s ease-out forwards;
+                                                                                                                                                                                                                                                            }
 
-header {
-    text-align: center;
-    margin-bottom: 25px;
-}
-
-.icon-main { font-size: 2.5rem; margin-bottom: 10px; }
-h1 { font-size: 1.6rem; margin-bottom: 5px; color: var(--primary-green); }
-.subtitle { font-size: 0.9rem; color: var(--text-muted); }
-
-/* القائمة المنسدلة */
-.selection-area { margin-bottom: 25px; }
-select {
-    width: 100%;
-    padding: 15px;
-    border-radius: 15px;
-    border: 2px solid var(--bg-color);
-    background: var(--bg-color);
-    color: var(--text-main);
-    font-family: 'Cairo';
-    font-size: 1rem;
-    cursor: pointer;
-}
-
-/* بطاقة العد التنازلي */
-.main-card {
-    background: linear-gradient(135deg, var(--primary-green), #004d33);
-    color: white;
-    padding: 20px 10px;
-    border-radius: 25px;
-    margin-bottom: 30px;
-    text-align: center;
-    overflow: hidden;
-}
-
-.timer {
-    font-size: 2.8rem;
-    font-weight: 700;
-    font-family: 'Cairo', sans-serif;
-    direction: ltr;
-    display: inline-block;
-}
-
-/* الشبكة */
-.prayer-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 15px;
-}
-
-.prayer-item {
-    background: var(--bg-color);
-    padding: 18px;
-    border-radius: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    transition: transform 0.2s;
-}
-
-.p-name { font-size: 0.85rem; color: var(--text-muted); margin-bottom: 5px; }
-.p-time { font-size: 1.3rem; font-weight: 700; color: var(--primary-green); }
-
-/* تمييز وقت الإمساك (السحور) */
-.accent-imsak {
-    border: 2px solid var(--accent-gold);
-    background: #fffdf5;
-}
-
-/* تمييز وقت الإفطار */
-.accent-maghrib {
-    border: 2px solid #e17055;
-    background: #fff5f2;
-    transform: scale(1.05);
-}
-
-/* دعم الوضع الليلي للتمييز */
-@media (prefers-color-scheme: dark) {
-    .accent-imsak {
-        background: #2c261a;
-        border-color: var(--accent-gold);
-    }
-    .accent-maghrib {
-        background: #3d1c13;
-        border-color: #e17055;
-    }
-}
-
-footer {
-    text-align: center;
-    margin-top: 35px;
-    font-size: 0.8rem;
-    color: var(--text-muted);
-}
-.hijri-date {
-    margin-top: 10px;
-    font-size: 1.1rem;
-    color: var(--accent-gold); /* لون ذهبي رمضاني */
-    font-weight: 700;
-    background: rgba(0, 98, 65, 0.1); /* خلفية خضراء خفيفة */
-    display: inline-block;
-    padding: 5px 15px;
-    border-radius: 50px;
+                                                                                                                                                                                                                                                            @keyframes explode {
+                                                                                                                                                                                                                                                                0% { transform: scale(1); opacity: 1; }
+                                                                                                                                                                                                                                                                    100% { transform: scale(20); opacity: 0; }
+                                                                                                                                                                                                                                                                    }
 }
