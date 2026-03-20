@@ -1,40 +1,63 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-    <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>تهنئة عيد الفطر 2026</title>
-                <link rel="stylesheet" href="style.css">
-                    <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
-                    </head>
-                    <body>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-                        <header>
-                                <div class="nav-container">
-                                            <button id="shareBtn" class="nav-btn">
-                                                            <span class="icon">🎁</span> <span id="shareText">مشاركة</span>
-                                                                        </button>
-                                                                                    <button id="langBtn" class="nav-btn">
-                                                                                                    <span class="icon">🌐</span> <span id="langLabel">Français</span>
-                                                                                                                </button>
-                                                                                                                        </div>
-                                                                                                                            </header>
+<title>عيد مبارك</title>
 
-                                                                                                                                <main>
-                                                                                                                                        <div class="card-container">
-                                                                                                                                                    <div class="moon-decoration">
-                                                                                                                                                                    <span class="eid-moon">🌙</span>
-                                                                                                                                                                                    <span class="eid-decor-flowers">🌸</span>
-                                                                                                                                                                                                </div>
+<style>
+body{
+    margin:0;
+        height:100vh;
+            display:flex;
+                justify-content:center;
+                    align-items:center;
+                        font-family:sans-serif;
+                            background:linear-gradient(135deg,#fce4ec,#e3f2fd);
+                                text-align:center;
+                                }
 
-                                                                                                                                                                                                            <div id="content-area">
-                                                                                                                                                                                                                            </div>
-                                                                                                                                                                                                                                    </div>
-                                                                                                                                                                                                                                        </main>
+                                .card{
+                                    background:#fff;
+                                        padding:30px;
+                                            border-radius:20px;
+                                                box-shadow:0 10px 25px rgba(0,0,0,.1);
+                                                }
 
-                                                                                                                                                                                                                                            <div id="confetti-container"></div>
-                                                                                                                                                                                                                                                <div id="fireworks-container"></div>
+                                                h1{color:#f77062;margin:0}
+                                                p{color:#666}
+                                                </style>
+                                                </head>
 
-                                                                                                                                                                                                                                                    <script src="script.js"></script>
-                                                                                                                                                                                                                                                    </body>
-                                                                                                                                                                                                                                                    </html>
+                                                <body>
+
+                                                <div class="card" id="app"></div>
+
+                                                <script>
+                                                // ✅ تاريخ العيد
+                                                const eidDate = new Date('2026-03-20');
+
+                                                // مدة عرض التهنئة (3 أيام)
+                                                const durationDays = 3;
+
+                                                const now = new Date();
+                                                const diffDays = (now - eidDate) / (1000*60*60*24);
+
+                                                const app = document.getElementById('app');
+
+                                                if(diffDays >= 0 && diffDays <= durationDays){
+                                                    app.innerHTML = `
+                                                            <h1>🎉 عيد مبارك</h1>
+                                                                    <p>كل عام وأنتم بخير</p>
+                                                                        `;
+                                                                        }else{
+                                                                            app.innerHTML = `
+                                                                                    <h1>🌙 نراكم في رمضان القادم</h1>
+                                                                                            <p>1448 هـ</p>
+                                                                                                `;
+                                                                                                }
+                                                                                                </script>
+
+                                                                                                </body>
+                                                                                                </html>
